@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080909">
+  <meta name="description" content="Project Henry has moved. Visit the new official website.">
+  <title>We've Moved — Project Henry</title>
+  <style>
+    :root{color-scheme:dark;--gold:#e4b84f;--gold2:#f6d987;--ink:#080909;--muted:#aaa9a2}
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;background:var(--ink);color:#f5f2e9;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    body{min-height:100svh;display:grid;place-items:center;padding:28px 18px;overflow-x:hidden}
+    .page{width:min(100%,900px);text-align:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--gold);font-size:.75rem;font-weight:750;letter-spacing:.24em;text-transform:uppercase}
+    .eyebrow:before,.eyebrow:after{content:"";width:25px;height:1px;background:var(--gold);opacity:.7}
+    h1{margin:18px 0 10px;font-size:clamp(2.7rem,8vw,5.7rem);line-height:.98;letter-spacing:-.065em;font-weight:850}
+    h1 span{color:var(--gold)}
+    .intro{max-width:570px;margin:0 auto;color:#bdbbb2;font-size:clamp(1rem,2.3vw,1.15rem);line-height:1.7}
+    .art{width:min(100%,690px);margin:26px auto 14px;display:block;filter:drop-shadow(0 18px 36px #0009)}
+    .route-label{margin:0 auto 22px;color:#9c9a91;font-size:.77rem;letter-spacing:.16em;text-transform:uppercase}
+    .cta{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:60px;padding:0 28px;border-radius:8px;background:linear-gradient(135deg,var(--gold2),var(--gold));color:#111;text-decoration:none;font-weight:850;letter-spacing:.035em;box-shadow:0 8px 30px #e4b84f25;transition:transform .2s,box-shadow .2s}
+    .cta:hover{transform:translateY(-3px);box-shadow:0 12px 36px #e4b84f40}
+    .cta svg{width:20px;height:20px}
+    .url{margin:13px 0 0;color:var(--gold2);font-size:.95rem;font-weight:650;letter-spacing:.04em}
+    .timer{margin:25px 0 0;color:#85847d;font-size:.85rem}
+    .timer button{border:0;background:none;color:#d9bd79;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font:inherit;margin-left:5px}
+    footer{margin-top:46px;color:#66665f;font-size:.75rem;letter-spacing:.08em}
+    @media(max-width:520px){body{padding:24px 17px}.art{margin:25px auto 10px}.cta{width:100%;padding:0 16px}.route-label{font-size:.68rem}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="eyebrow">Project Henry · Official Update</div>
+    <h1>We've <span>moved.</span></h1>
+    <p class="intro">The destination has changed, but the journey continues. Project Henry now has a new home. Follow the diversion to reach our latest website.</p>
+
+    <svg class="art" viewBox="0 0 760 390" role="img" aria-labelledby="roadTitle roadDesc" xmlns="http://www.w3.org/2000/svg">
+      <title id="roadTitle">Road diversion to the new Project Henry website</title>
+      <desc id="roadDesc">A road curves toward a bright gold directional sign marked NEW SITE, pointing visitors to Project Henry's new online home.</desc>
+      <defs>
+        <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#1c1e1d"/><stop offset="1" stop-color="#0c0e0d"/></linearGradient>
+        <linearGradient id="road" x2="0" y2="1"><stop stop-color="#353735"/><stop offset="1" stop-color="#171918"/></linearGradient>
+        <linearGradient id="sign" x2="0" y2="1"><stop stop-color="#f7d987"/><stop offset="1" stop-color="#d39b31"/></linearGradient>
+        <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+      </defs>
+      <rect x="1" y="1" width="758" height="388" rx="22" fill="url(#sky)" stroke="#35332b"/>
+      <circle cx="580" cy="95" r="65" fill="#d8a83f" opacity=".09" filter="url(#glow)"/>
+      <path d="M0 258 Q180 224 330 259 T760 248 V390 H0Z" fill="#111413"/>
+      <path d="M230 390 Q285 305 354 258 Q408 223 484 220 Q581 216 760 249 L760 390Z" fill="url(#road)"/>
+      <path d="M230 390 Q285 305 354 258 Q408 223 484 220" fill="none" stroke="#77786f" stroke-width="3" opacity=".35"/>
+      <path d="M405 390 Q421 316 457 258 Q483 226 540 221" fill="none" stroke="#d7d2bf" stroke-width="4" stroke-dasharray="17 17" opacity=".75"/>
+      <path d="M0 286 Q155 254 285 275" fill="none" stroke="#444640" stroke-width="2"/>
+      <g opacity=".5" fill="#343832"><path d="M44 257l18-65 18 65zM94 264l23-83 23 83zM657 242l22-75 22 75zM706 245l17-57 17 57z"/></g>
+      <g transform="translate(470 45)">
+        <path d="M18 290V65" stroke="#77766e" stroke-width="9" stroke-linecap="round"/>
+        <path d="M18 290V65" stroke="#c4bda9" stroke-width="2" opacity=".5"/>
+        <path d="M18 65H225V190H18Z" rx="8" fill="#000" opacity=".25" transform="translate(5 7)"/>
+        <path d="M18 65H225V190H18Z" fill="url(#sign)" stroke="#ffe5a1" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M38 88H201" stroke="#8e6827" stroke-width="2" opacity=".45"/>
+        <text x="118" y="119" text-anchor="middle" fill="#19170f" font-size="18" font-weight="900" letter-spacing="3">ROAD</text>
+        <text x="118" y="145" text-anchor="middle" fill="#19170f" font-size="18" font-weight="900" letter-spacing="3">DIVERSION</text>
+        <path d="M54 165H158" stroke="#211b10" stroke-width="7" stroke-linecap="round"/>
+        <path d="M148 148L170 165L148 182" fill="none" stroke="#211b10" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="119" y="211" text-anchor="middle" fill="#f1d28b" font-size="11" font-weight="800" letter-spacing="2">NEW DESTINATION</text>
+      </g>
+      <g transform="translate(68 62)">
+        <path d="M0 0H128V80H0Z" rx="8" fill="#151817" stroke="#4b4a40"/>
+        <text x="64" y="29" text-anchor="middle" fill="#e4b84f" font-size="12" font-weight="800" letter-spacing="2">PROJECT</text>
+        <text x="64" y="55" text-anchor="middle" fill="#f4f0e5" font-size="22" font-weight="900" letter-spacing="1">HENRY</text>
+      </g>
+      <g fill="#e4b84f" opacity=".75"><circle cx="178" cy="205" r="2"/><circle cx="205" cy="191" r="1.5"/><circle cx="154" cy="222" r="1.5"/><circle cx="632" cy="286" r="2"/></g>
+    </svg>
+
+    <p class="route-label">Your new destination is just one turn away</p>
+    <a class="cta" href="https://projecthenry.pages.dev" aria-label="Visit the new Project Henry website">
+      CONTINUE TO PROJECT HENRY
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <p class="url">projecthenry.pages.dev</p>
+    <p class="timer" id="timer" aria-live="polite">Taking you to the new site in <strong id="seconds">12</strong> seconds. <button id="stay" type="button">Stay here</button></p>
+    <footer>THANK YOU FOR BEING PART OF THE JOURNEY · HENRY MULI</footer>
+  </main>
+  <script>
+    (() => {
+      let remaining = 12;
+      let active = true;
+      const seconds = document.getElementById('seconds');
+      const timer = document.getElementById('timer');
+      const stay = document.getElementById('stay');
+      const interval = window.setInterval(() => {
+        if (!active) return;
+        remaining -= 1;
+        seconds.textContent = String(remaining);
+        if (remaining <= 0) {
+          window.clearInterval(interval);
+          window.location.replace('https://projecthenry.pages.dev');
+        }
+      }, 1000);
+      stay.addEventListener('click', () => {
+        active = false;
+        window.clearInterval(interval);
+        timer.textContent = 'You are viewing the move notice. Use the button above whenever you are ready.';
+      });
+    })();
+  </script>
+</body>
+</html>
